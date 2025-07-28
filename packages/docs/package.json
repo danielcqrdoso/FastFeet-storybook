@@ -1,0 +1,51 @@
+{
+  "name": "@fastfeet/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "storybook build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@chromatic-com/storybook": "^3.2.5",
+    "@storybook/addon-a11y": "^8.6.3",
+    "@storybook/addon-mdx-gfm": "^8.6.2",
+    "@storybook/addon-onboarding": "^8.6.3",
+    "@storybook/blocks": "^8.6.3",
+    "@storybook/builder-vite": "^8.6.3",
+    "@storybook/experimental-addon-test": "^8.6.3",
+    "@storybook/react": "^8.6.3",
+    "@storybook/react-vite": "^8.6.3",
+    "@storybook/test": "^8.6.3",
+    "@storybook/theming": "^8.6.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "babel-loader": "^10.0.0",
+    "eslint-plugin-storybook": "^0.11.3",
+    "storybook": "^8.6.3",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7"
+  },
+  "dependencies": {
+    "@fastfeet/react": "^1.1.2",
+    "@fastfeet/tokens": "^1.0.4",
+    "@storybook/addon-actions": "^8.6.2",
+    "@storybook/addon-docs": "^8.6.4",
+    "@storybook/addon-essentials": "^8.6.3",
+    "@storybook/addon-interactions": "^8.6.3",
+    "@storybook/addon-links": "^8.6.2",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
