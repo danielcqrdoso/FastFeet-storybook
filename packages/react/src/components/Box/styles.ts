@@ -6,6 +6,7 @@ export const BoxContainer = styled('div', {
   border: '1px solid $black',
   display: 'flex',
   width: '100%',
+  minWidth: '350px',
 
   variants: {
     transparent: {
@@ -35,6 +36,15 @@ export const BoxContainer = styled('div', {
       },
       false: {
         flexDirection: 'row',
+      },
+    },
+
+    isHalfWidth: {
+      true: {
+        width: '50%',
+      },
+      false: {
+        width: '100%',
       },
     },
   },

@@ -6,6 +6,8 @@ export interface BoxProps extends ComponentProps<typeof BoxContainer> {
   transparent?: boolean
   padding?: boolean
   isCentralized?: boolean
+  isHalfWidth?: boolean
+  isColumn?: boolean
 }
 
 export function Box(props: BoxProps) {
