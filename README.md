@@ -1,23 +1,10 @@
 # Components
 
-- [ ] Button
-- [ ] Heading
-- [ ] Text
-- [ ] TextInput
-- [ ] Textarea
-- [ ] Checkbox
-- [ ] Avatar
-- [ ] MultiStep
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+- [x] Button
+- [x] Text
+- [x] TextInput
+- [x] Checkbox
+- [x] MultiStep
+- [x] RadioButton
 
 <!--END_SECTION:footer-->
