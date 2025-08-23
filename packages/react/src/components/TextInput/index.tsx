@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { ComponentProps, useState } from 'react'
 import {
   Input,
   InputLogo,
@@ -9,7 +9,7 @@ import {
 import { EyeLogo } from '../../images/eye'
 import { EyeSlashLogo } from '../../images/eye_slash'
 
-export interface TextInputProps {
+export interface TextInputProps extends ComponentProps<typeof Input> {
   src: string
   placeholder: string
   isAPassword?: boolean
